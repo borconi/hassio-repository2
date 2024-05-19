@@ -1,4 +1,5 @@
-
+# Second instance
+Nothing changed, just configured to run from a secondary directory, so we can run 2 instances when we want to use multiple inverters.
 
 # Hassio add-on Repository
 This repository contains Hass.io add-ons. All add-ons in this repository are tested on Hass.io, Home Assistant Core installation is not supported.
