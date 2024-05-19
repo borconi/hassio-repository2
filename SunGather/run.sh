@@ -1,10 +1,10 @@
 #!/usr/bin/with-contenv bashio
 
-if [ ! -d /share/SunGather3 ]; then
-  mkdir -p /share/SunGather3
+if [ ! -d /share/SunGather2 ]; then
+  mkdir -p /share/SunGather2
 fi
 
-if [ ! -f /share/SunGather3/config.yaml ]; then
+if [ ! -f /share/SunGather2/config.yaml ]; then
     cp config-hassio.yaml /share/SunGather/config.yaml
 fi
 
@@ -57,4 +57,4 @@ yq -i "
 " /share/SunGather/config.yaml
 
 source ./venv/bin/activate
-exec python3 /sungather.py -c /share/SunGather3/config.yaml -l /share/SunGather3/
+exec python3 /sungather.py -c /share/SunGather2/config.yaml -l /share/SunGather2/
