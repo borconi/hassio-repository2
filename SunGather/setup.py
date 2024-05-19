@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="SunGather",
+    name="SunGather_mod_2",
     version=__version__,
     author="Bohdan Flower",
     author_email="github@bohdan.net",
