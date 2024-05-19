@@ -1,4 +1,4 @@
-name: "SunGather"
+name: "SunGather second instance"
 version: "0.1.4"
 slug: sungather
 description: "Extract Sungrow data from local Inverter"
