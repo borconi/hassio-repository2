@@ -9,7 +9,7 @@ inverter:
   # port: 502
   # timeout: 10
   # retries: 3
-  model: "SH10.0RT"
+  # model: "SH10.0RT"
   # serial: xxxxxxxxxx
 exports:
   - name: webserver
